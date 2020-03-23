@@ -48,17 +48,12 @@ h1, h2 {
 }
 
 
-footer{
-    min-width: 1000px;
-}
-
 .mainer-wrapper{
     background-image: url(../images/background.jpg);
     background-size: cover;
     padding: 120px 0;
     box-sizing: border-box;
-
-
+    min-width: 1000px;
 }
 
 
@@ -214,7 +209,8 @@ form textarea::placeholder{
 }
 
 
-footer .rights{
+footer{
+    min-width: 1000px;
     height: 90px;
     background-color: #262626;
     display: flex;
@@ -224,7 +220,7 @@ footer .rights{
     
 }
 
-.rights .text-rights{
+footer .text-rights{
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
@@ -234,7 +230,7 @@ footer .rights{
     display: block;
 }
 
-.rights .logo{
+footer .logo{
     display: block;
     font-family: 'Pacifico', cursive;
     font-size: 25px;
