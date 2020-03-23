@@ -1,0 +1,252 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    color: #262626;
+    margin: 0 0 27px 0;
+}
+
+
+footer{
+    min-width: 1000px;
+}
+
+.mainer-wrapper{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    padding: 120px 0;
+    box-sizing: border-box;
+
+
+}
+
+
+.mainer{
+    text-align: center;
+    margin: 0 auto;
+    max-width:1500px;
+}
+
+.mainer .headline-text{
+    margin: 0 auto 33px auto;
+    display: block;
+    width: 340px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: #262626;
+    line-height: 25px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-wrapper{
+    width: 500px;
+}
+
+form input{
+    width: 500px;
+    min-height: 50px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+    border: none;
+    border-left: 5px solid transparent;
+    margin: 7.5px 0;
+    padding: 0 20px;
+}
+
+form input::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+form input:valid{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+form input:focus{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+form input:hover{
+    opacity: 1;
+}
+
+
+form .form-button{
+    width: 100px;
+    height: 25px;
+    margin: 20px  0 0 400px;
+    background-color: #00c4c4;
+    border: transparent 5px solid;
+    opacity: 0.5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+    padding:0 0 3px 0;
+    border: 2px transparent solid;
+}
+
+form .form-button:hover{
+    opacity: 1;
+}
+
+form .form-button:active{
+    background-color: #04dbdb;
+}
+
+form .form-button:focus{
+    border: 2px solid #355b82;
+    opacity: 1;      
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+form textarea{
+    min-height: 250px;
+    background-color: #00c4c4;
+    opacity: 0.5;
+    border: none;
+    margin: 7.5px 0 0 0;
+    width: 500px;
+    padding: 20px;
+    resize: none;
+}
+
+form textarea:valid{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+form textarea:hover{
+    opacity: 1;
+}
+
+form textarea:focus{
+    opacity: 1;
+    border-left: 5px solid #355b82;
+}
+
+form textarea::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #fff;
+}
+
+.contact-wrapper{
+    padding: 4px 0 0 0;
+}
+
+.contact{
+    margin: 0 10px 0 -10px;
+    text-align: left;
+}
+
+.contact .contact-key{
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #262626;    
+}
+
+.contact .contact-value{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #262626;
+    line-height: 25px;   
+}
+
+
+footer .rights{
+    height: 90px;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 165px;
+    box-sizing: border-box;
+    
+}
+
+.rights .text-rights{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #b9b9b9;
+    display: flex;
+    align-self: center;
+    display: block;
+}
+
+.rights .logo{
+    display: block;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #b9b9b9;
+    align-self: center;
+}
+
+.rights .author{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    align-self: center;
+    color: #b9b9b9;
+}
